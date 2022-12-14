@@ -25,7 +25,9 @@ echo "<h2>WebServer with IP: $myip</h2><br>Build by Terraform!" > /var/www/html/
 sudo service httpd start
 chkconfig httpd on
 EOF
-
+  tags = {
+    Name = "test name for webserver AWS instance"
+  }
 }
 
 #next step to create security_group
