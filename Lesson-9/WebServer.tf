@@ -5,7 +5,7 @@
 #
 # Made by Rolan Zapara
 #-----------------------------
-
+#this is kind of test text to verify integration Github vs Jira
 
 provider "aws" {
   region = "eu-central-1"
