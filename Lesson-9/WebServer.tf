@@ -6,6 +6,7 @@
 # Made by Rolan Zapara
 #-----------------------------
 #this is kind of test text to verify integration Github vs Jira
+#this is test line for testing logging weeks/hours/minutes using message in commit :)) 
 
 provider "aws" {
   region = "eu-central-1"
